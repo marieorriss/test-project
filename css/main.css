@@ -1,0 +1,308 @@
+/***BASE STYLES**/
+
+html {
+	font-size: 16px;
+}
+
+body {
+	max-width: 1200px; 
+	margin: 0 auto; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+h1, 
+h3, 
+h4 {
+	color: black; 
+	text-transform: uppercase; 
+}
+
+
+p {
+	padding: 0px 30px; 
+	line-height: 21px; 
+	font-size: 0.88em;
+}
+
+
+/***LOGO & NAVIGATION**/
+
+#module-one {
+
+	font-size: 1em;
+}
+
+
+h1 {
+	font-size: 1.88em;
+    text-align: center;
+    width: auto;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #77a466;
+}
+
+header {
+	width: 100%; 
+	height: 100px; 
+	margin: 0 auto;
+}
+
+header span {
+	color: #77a466;
+}
+
+nav {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+ul {
+
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+header nav a {
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	font-size: 0.88em; 
+	color:#77a466;
+	display: block;
+	padding-top: 2px;
+}
+
+/***TOP SECTION***/
+
+
+#module-two {
+
+	font-size: 1em;
+}
+
+.top-section, 
+.bottom-section {
+	width: 100%; 
+	margin: 0 auto; 
+	clear: both;
+	margin-top: 85px;
+}
+
+.main-title h3 {
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #77a466; 
+}
+
+
+
+.main-image {
+	width: 100%; 
+	height: auto; 
+	float: left;
+}
+
+.main-image img {
+	width: 100%; 
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	width: 100%; 
+	height: auto; 
+	float: left;
+}
+
+.main-title p {
+	padding: 0 15px;
+	
+	line-height: 25px; 
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1.13em; 
+	text-align: center; 
+	padding: 15px;
+	margin: auto 10px;
+}
+
+
+/***BOTTOM SECTION**/
+
+#module-three {
+
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	text-align: center;
+}
+
+.section-one, 
+.section-two, 
+.section-three {
+	width: 100%; 
+	height: auto;  
+	border-top: 1px solid #eee;
+}
+
+.section-one, 
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+
+.menu {
+	list-style: none; 
+	padding: 0px;
+}
+
+.menu li {
+	padding: 10px 0; 
+	color:#77a466;
+}
+
+.reviews {
+	color: #333; 
+	line-height: 21px; 
+	font-size: 1rem;
+	text-align: center;
+}
+
+.address {
+	font-size: 1rem; 
+	line-height: 24px;
+	text-align: center;
+}
+
+
+/***FOOTER**/
+
+#module-four {
+
+	font-size: 1em;
+}
+
+footer {
+	width: 100%; 
+	height: 50px; 
+	border-top: 3px solid #eee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+	font-size: 0.88em;
+}
+
+
+
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 
+}
+ 
+
+
+@media all and (min-width:940px) {
+    /* Desktop styles here */
+
+
+header {
+	height: 110px; 
+}
+
+ h1 {
+	font-size: 1.5em; 
+	padding: 15px 0;
+	float: left;
+	border: none;
+}
+
+nav {
+    margin: 0;
+}
+
+header nav {
+	padding: 45px 0px;
+}
+
+nav ul li{
+    display: inline-block;
+  	padding-left: 20px;
+}
+
+header nav a {
+	padding: 0 10px; 
+	
+
+}
+
+
+.top-section, 
+.bottom-section {
+	margin-top: 0;
+}
+
+.main-title p {
+padding: 0px; 
+}
+
+.main-title h3 {
+    text-align: left;
+    padding: 5px 0px; 
+    }
+
+h3 {
+margin:0;	
+}
+
+
+.section-one, 
+.section-two, 
+.section-three {
+	width: 33%; 
+	height: auto; 
+	float: left; 
+	border-top: 1px solid #eee;
+}
+
+h4 {
+	font-size: 0.88em;
+	text-align: left;
+}
+.section-one h4 {
+	padding: 10px 0px;
+}
+
+.menu li {
+	text-align: left;
+}
+
+
+.section-two h4, 
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.reviews {
+	text-align: left;
+}
+
+.address {
+	text-align: left;
+}
+
+}
